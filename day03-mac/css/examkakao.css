@@ -1,0 +1,141 @@
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{text-decoration: none; margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+#wrap-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header */
+#head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: left;
+    border: solid 2px #bbbbbb;
+    width: 1265px;
+    height: 49px;
+    padding: 0 0 0 15px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    gap: 940px;
+}
+
+.header1 img {
+    display: block;
+    align-items: center;
+    width: 66px;
+    height: 20px;
+}
+
+.sidemenu{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.sidemenu img {
+    width: 20px;
+    height: 20px;
+}
+
+.sidemenu > .login {
+    padding: 5px 0 0 30px;
+    border: solid 1px #bbbbbb;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 15px;
+    margin: 0 auto;
+}
+
+.header2 img {
+    width: 180px;
+    height: 21.32px;
+    padding: 0 0 20px;
+}
+
+.storeinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+    color: #767676;
+    font-size: 12px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid 2px #bbbbbb;
+    margin: 0 auto;
+    width: 1280px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.categories {
+    display: flex;
+    justify-content: left;
+    gap: 35px;
+    font-size: 15px;
+    padding: 60px 0 0 0;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 60px 0 10px 500px;
+    margin: 0 auto;
+}
+
+.search input {
+    padding: 5px 39px 5px 15px;
+    width: 218px;
+    height: 34px;
+    font-size: 15px;
+    border: solid 1px #767676;
+    border-radius: 5px;
+}
+
+/* banner */
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 0 0;
+}
